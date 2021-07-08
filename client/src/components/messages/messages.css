@@ -1,0 +1,42 @@
+
+
+#chat-main{
+    min-height: 550px;
+    width: 100%;
+    scroll-behavior: auto;
+    overflow-y: scroll;
+    background-color: #b8b8b8;
+    background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+}
+
+.chat-all{
+    border: 2px blue solid;
+    border-bottom: 0;
+}
+
+.chat-btn-send{
+    border-radius: 0;
+    width: 6rem;
+}
+
+#chat-message{
+    display: block;
+    margin-left: 1rem;
+    color: white;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    font-weight: 900;
+    background-color: #145707d0;
+    width: 95%;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    padding-left: 1.5rem;
+}
+
+#chat-author{
+    color: rgb(208, 255, 0);
+    font-weight: 600;
+    font-size: 1.2rem;
+}

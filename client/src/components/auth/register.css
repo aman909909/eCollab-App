@@ -1,0 +1,44 @@
+.register-container{
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-height: 700px;
+  background: white;
+  padding: 4rem;
+  max-width: 800px;
+}
+
+.check {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 20px;
+  width: 10px;
+  border-bottom: 5px solid green;
+  border-right: 5px solid green;
+}
+
+.form-control:focus, .form-control:active {
+  background: none;
+}
+
+.register-button{
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #444242;
+  color: white;
+  letter-spacing: 0.3em;
+}
+
+.register-button:hover{
+  color: #abf4b7;
+}
+
+#register-input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin-bottom: 0.6rem;
+  border-radius: 0;
+  background-color: white;
+}

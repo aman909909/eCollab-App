@@ -1,0 +1,22 @@
+#auth{
+    background-color: white;
+    max-width: 800px;
+}
+
+.auth-head-text{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.head-active{
+    background-color: rgba(0, 156, 39, 0.657);
+    color: white;
+}
+.head-inactive{
+    background-color: white;
+    color: #464648;
+}
+.auth-a:hover{
+    text-decoration: none;
+    color: initial;
+}

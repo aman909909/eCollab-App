@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.roomform{
+    
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    background: #ffffff;
+    padding: 5rem;
+    left: 16%;
+    width: 70%;
+    min-height: 400px;
+    font-size: 1.4rem;
+}
+@media screen and (max-width: 800px) {
+    .roomform{
+        left: 0;
+        width: 100% ;
+    }
+  }
+/*start for create-form-button*/
+  .create-form-button{
+      width: 100%;
+      border-radius: 2;
+      background: greenyellow;
+      margin-top: 4rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.3rem;
+  }
+
+  
+  .create-form-button:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .create-form-button:active {
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+
+   
+  .create-form-button:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+  }
+  
+  .create-form-button-animated {
+      animation: moveInBottom 5s ease-out;
+      animation-fill-mode: backwards;
+  }
+  
+  @keyframes moveInBottom {
+      0% {
+          opacity: 0;
+          transform: translateY(30px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateY(0px);
+      }
+  }
+/*end*/
+.create-form-cross{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: red;
+    cursor: pointer;
+}
+
+.room-password-text-main{
+   color: black;
+   font-size: 2rem;
+}
+
+.room-password-container{
+    background-color: white;
+    text-align: center;
+    padding: 4rem;
+}
+
+.room-password-button{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.room-home-button{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #167e02;
+    border-radius: 0.6em;
+    color: #167e02;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    line-height: 1;
+    margin-bottom: 1rem;
+    padding: 1.5em 2.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px; 
+}
+.room-home-join:hover, .room-home-join:focus {
+    color: #fff;
+    outline: 0;
+}
+.first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+.first:hover {
+    box-shadow: 0 0 40px 40px #167e02 inset;
+}
+.second {
+    border-color: #f1c40f;
+    color: #f1c40f;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+.second:hover {
+    background-position: 0;
+    color: black;
+}
+
+.room-home-trending-heading{
+    font-size: 1.4rem;
+    color: tomato;
+    font-weight: bold;
+    border-bottom: tomato 2px solid;
+    padding-bottom: 1rem;
+    letter-spacing: 6px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.room-home-trending{
+    margin-top: 5rem;
+    height: 100%;
+    padding: 1rem;
+}
+
+.room-card-lock{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+.room-home-row{
+    width: 100%;
+    margin: 0;
+}
+
+.room-card{
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+}
+.room-card:hover{
+    transition: ease-in-out 300ms;
+    transform: scale(1.2);
+}
+.room-card-desc{
+    font-size: 1.1rem;
+    color: grey;
+}
+.room-home-header{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+.room-card-yellow{
+    background: rgb(192, 160, 18);
+    color: white;
+    letter-spacing: 2px;
+}
+.room-card-purple{
+    background: rgba(177, 15, 15, 0.794);
+    color: white;
+    letter-spacing: 2px;
+}
+.room-card-trending-color{
+    background: rgba(0, 27, 53, 0.794);
+    color: white;
+    letter-spacing: 2px;
+}
+
+#room-details-heading{
+    color: white;
+    font-size: 2.6rem;
+    font-family: 'Oswald', sans-serif;
+    margin: 1rem;
+}
+
+#room-details-desc{
+    color: rgb(197, 184, 184);
+    font-size: 1.2rem;
+    display: block;
+    margin: 1rem;
+    margin-top: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.room-details-share {
+    color: rgb(221, 14, 14);
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    cursor:copy;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .room-details-share .room-details-copy-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin-left: 1rem;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .room-details-share:hover .room-details-copy-text {
+    visibility: visible;
+  }
